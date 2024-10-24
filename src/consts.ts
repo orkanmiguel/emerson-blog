@@ -2,8 +2,8 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Base Page Metadata, src/layouts/BaseLayout.astro
-export const BRAND_NAME = "AstroVerse";
-export const SITE_TITLE = "AstroVerse";
+export const BRAND_NAME = "Emerson Huinca Coliqueo";
+export const SITE_TITLE = "Emerson Huinca Coliqueo";
 export const SITE_DESCRIPTION = "An Astro Theme for Visual Storytelling";
 
 // Tags Page Metadata, src/pages/tags/index.astro
@@ -29,15 +29,16 @@ export function getCategoryMetadata(category: string) {
 
 // Header Links, src/components/Header.astro
 export const HeaderLinks = [
-  { href: "/category/One/1/", title: "One" },
-  { href: "/category/Two/1/", title: "Two" },
-  { href: "/category/Three/1/", title: "Three" },
+  { href: "/category/Naturaleza/1/", title: "Naturaleza" },
+  { href: "/category/Galeria/1/", title: "Galeria" },
+  { href: "/category/Boulder/1/", title: "Boulder" },
 ];
 
 // Footer Links, src/components/Footer.astro
 export const FooterLinks = [
-  { href: "/posts/why-astro/", title: "Astro" },
-  { href: "/posts/tailwind-typography/", title: "Tailwind" },
+  { href: "/posts/boulder/", title: "Boulder" },
+  { href: "/posts/puerto-varas/", title: "Puerto Varas" },
+  { href: "/posts/punta-zanzi/", title: "Punta zanzi" },
   { href: "/tags/", title: "Tags" },
 ];
 
@@ -45,14 +46,14 @@ export const FooterLinks = [
 export const SocialLinks = [
   { href: "/rss.xml", icon: "tabler:rss", label: "RSS" },
   {
-    href: "https://twitter.com/astrodotbuild",
-    icon: "tabler:brand-twitter",
+    href: "https://gmail.com/",
+    icon: "tabler:brand-gmail",
     label: "Twitter",
   },
   {
-    href: "https://github.com/isooosi",
-    icon: "tabler:brand-github",
-    label: "GitHub",
+    href: "https://www.instagram.com/emersonh.coliqueo/",
+    icon: "tabler:brand-instagram",
+    label: "Instagram",
   },
 ];
 

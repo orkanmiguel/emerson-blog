@@ -14,7 +14,7 @@ export default defineConfig({
   trailingSlash: "always",
   prefetch: {
     prefetchAll: true,
-    defaultStrategy: 'viewport',
+    defaultStrategy: "viewport",
   },
 
   experimental: {
@@ -25,7 +25,7 @@ export default defineConfig({
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**.unsplash.com",
+        hostname: "**.ejemplo.cl",
       },
     ],
   },
@@ -52,6 +52,5 @@ export default defineConfig({
         tabler: ["*"],
       },
     }),
-    
   ],
 });
